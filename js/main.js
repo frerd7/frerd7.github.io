@@ -5,7 +5,7 @@ window.onload = function () {
   const show = document.getElementById('show');
   /* end */
   
-  /* var repo */
+  /* var repository */
   const apache = document.getElementById('apache');
   const git = document.getElementById('git');
   const pad = document.getElementById('pad');
@@ -88,4 +88,8 @@ window.onload = function () {
   const swh = document.getElementById('info_swh');
   swh.innerText = 'Es un script escrito en python que se basa en enviar una solicitud al servidor' +  'o varias y la respuesta que envia es el encabezado (head), numero de respuesta, dns from ding, el ping testing.' +
 ' Usando el metodo GET';
+
+   const qmlapp = document.getElementById('info_qmlapp');
+   qmlapp.innerText = 'Es un programa QtQuick que sirve para convertir el codigo script QML en un programa,' + ' y hacer que la programacion GUI sea mas facil';
+
 };
