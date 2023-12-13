@@ -32,12 +32,11 @@
   position: fixed;
   background-color: #0A0A60;
   width: 284px; 
-  height: 100vh;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: -1;
   margin-left: auto;
-  margin-right: auto;
   border: 4px solid #0D0D6F;
   line-height: 100px;
 }
